@@ -20,17 +20,17 @@ cd ~ && git clone https://github.com/Hootrix/ygod_script.git  && cd ygod_script
 
 ```
 # 首次运行
-docker-compose up -d
+sudo docker-compose -f ~/ygod_script/docker-compose.yaml up -d
 
 
 # 启动
-docker-compose restart
+sudo  docker-compose -f ~/ygod_script/docker-compose.yaml  restart
 
 # 停止
-docker-compose stop
+sudo  docker-compose -f ~/ygod_script/docker-compose.yaml stop
 
 # 重启
-restart
+sudo  docker-compose -f ~/ygod_script/docker-compose.yaml restart
 ```
 
 ## 设置参数
