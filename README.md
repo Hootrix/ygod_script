@@ -35,7 +35,7 @@ sudo  docker-compose -f ~/ygod_script/docker-compose.yaml restart
 
 ## 设置参数
 
-修改config.php 例如
+修改src/config.php 例如
 ```
 '/test/dashaozhu' => 'http://mock-api.com/VnZ8Eqzw.mock/boluo',
 ```
