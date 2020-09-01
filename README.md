@@ -24,7 +24,7 @@ sudo docker-compose -f ~/ygod_script/docker-compose.yaml up -d
 
 
 # 启动
-sudo  docker-compose -f ~/ygod_script/docker-compose.yaml  restart
+sudo  docker-compose -f ~/ygod_script/docker-compose.yaml  start
 
 # 停止
 sudo  docker-compose -f ~/ygod_script/docker-compose.yaml stop
