@@ -7,7 +7,8 @@ proxy pass  script.
 ubuntu
 ```
 sudo apt-get install docker docker-compose -y
-sudo systemctl enable docker
+sudo systemctl start docker #启动docker
+sudo systemctl enable docker # 设置开机自启动
 ```
 
 ## 拉取代码
